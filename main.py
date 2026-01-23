@@ -47,6 +47,3 @@ def predict_performance(data: StudentData):
         "explanation": "Factors contributing to risk: Attendance and Assignment completion."
     }
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
