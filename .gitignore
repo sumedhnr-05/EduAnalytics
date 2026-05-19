@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Databases (Local test files - schema is auto-generated on run)
+*.db
+*.sqlite3
+
+# Streamlit/OS local configs
+.streamlit/
+.DS_Store
+Thumbs.db
